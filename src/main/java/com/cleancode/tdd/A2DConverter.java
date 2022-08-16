@@ -29,11 +29,4 @@ public class A2DConverter {
         return (value < sensorMinReading || value > sensorMaxReading);
     }
 
-    public static void main(String[] args) {
-        int a = Math.round(
-                ((700 - 0) * (15 - (-15))) / (1023 - 0) +
-                        (-15));
-        System.out.println(a);
-    }
-
 }
